@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "symfony/symfony": ">=4.0",
+        "symfony/symfony": "4.0.*",
         "a2lix/translation-form-bundle": "*"
     },
     "autoload": {
@@ -24,7 +24,7 @@
     "target-dir": "manguecreative/I18nDoctrineBundle",
     "extra": {
         "branch-alias": {
-            "dev-master": "0.x-dev"
+            "dev-master": "master"
         }
     }
 }

@@ -1,27 +1,27 @@
 {
-    "name": "a2lix/i18n-doctrine-bundle",
+    "name": "manguecreative/i18n-doctrine-bundle",
     "type": "symfony-bundle",
-    "description": "Manage i18n for your doctrine objects",
+    "description": "Forked by David TRINH - Manage i18n for your doctrine objects",
     "keywords": ["symfony2", "doctrine2", "i18n", "internationalization", "translation", "translatable"],
-    "homepage": "https://github.com/a2lix/I18nDoctrineBundle",
+    "homepage": "https://github.com/manguecreative/I18nDoctrineBundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "A2lix",
+            "name": "Forked by David TRINH - A2lix",
             "homepage": "http://a2lix.fr"
         },
         {
-            "name": "David ALLIX"
+            "name": "Forked by David TRINH David ALLIX"
         }
     ],
     "require": {
-        "symfony/symfony": ">=2.3",
+        "symfony/symfony": ">=4.0",
         "a2lix/translation-form-bundle": "*"
     },
     "autoload": {
-        "psr-0": {"A2lix\\I18nDoctrineBundle": ""}
+        "psr-0": {"manguecreative\\I18nDoctrineBundle": ""}
     },
-    "target-dir": "A2lix/I18nDoctrineBundle",
+    "target-dir": "manguecreative/I18nDoctrineBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "0.x-dev"
